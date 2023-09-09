@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Antique furniture</title>
+    <link rel="stylesheet" href="../css/2.css">
+    <link rel="stylesheet" href="../css/chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../image/favicon_io/apple-touch-icon.png">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/cf1c329801.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Noto+Serif+Khojki:wght@600&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@200&family=Rajdhani&family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<!-- navigation bar -->
+        <div class="container1">
+        <div class="navbar">
+            <div class="name">
+                <a href="home.html"><img src="../image/logo1.png" alt="logo1" style="width: 90PX; height: 90PX; background-image: url(backimage.jpg); border-radius: 120%;"></a>
+              <a href='login.html' >Patel's Vintage Furnishing</a>
+            </div>
+            <nav>
+                <ul id='MenuItems'>
+                    <li class="hover-3"><a href='home.html'>Home</a></li></ul>
+                    <ul>
+                    <div class="dropdown">
+                        <li class="hover-3"><a href='../html/Restoration.html'>Restoration</a></li>
+                        <div class="dropdown-content">
+                          <a href=" ../html/Restoration.html #Refinishing">Refinishing</a>
+                          <a href="../html/Restoration.html #woodrepair">wood repair</a>
+                          <a href="../html/Restoration.html #upholstery">upholstery</a>
+                          <a href="../html/Restoration.html #color_restoration">Color 
+                            restoration</a>
+                          <a href="../html/Restoration.html #Cleaing">Cleaing & polishing</a>    
+                        </div>
+                    </div></ul>
+                    <ul>
+                    <div class="dropdown">
+                        <li class="hover-3"><a href='../html/Expertise.html'>Expertise</a></li>
+                        <div class="dropdown-content">
+                            <a href="../html/Expertise.html #custom">Custom-design vintage furniture</a>
+                            <a href="../html/Expertise.html #Restored">Restored vintage furniture</a>
+                            <a href="../html/Expertise.html #upcycled">upcycled vintage furniture</a>
+                            <a href="../html/Expertise.html #Hnad-painted">Hand-painted vintage furniture</a>
+                             <a href="../html/Expertise.html #hardware">Vintage furniture hardware & fitings</a>   
+                          </div>    
+                    </div>
+
+                    <li class="hover-3"><a href='../html/About_us.html'>About us</a></li>
+                    <li class="hover-3"><a href='../html/Contact.html'>Contact</a></li>
+                    <li class="hover-3"><a href="index.html" target="_self"><i class="fa-sharp fa-regular fa-user"></i></a></li>
+                    <li class="hover-3"><a href="../html/Expertise.html" target="_self"><i class="fa-solid fa-cart-shopping"></i></a></li>
+    
+                           
+                </ul>
+            </nav>
+            
+        </div></div>
+  <!-- End navigation bar -->
+
+      <!-- full page started -->
+        <div class="full-page">
+                  <!-- Chat bot started -->
+            <div class="chat-bar-collapsible">
+                <button id="chat-button" type="button" class="collapsible">Chat with us!
+                    <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+                </button>
+        
+                <div class="content1">
+                    <div class="full-chat-block">
+                        <!-- Message Container -->
+                        <div class="outer-container">
+                            <div class="chat-container">
+                                <!-- Messages -->
+                                <div id="chatbox">
+                                    <h5 id="chat-timestamp">.</h5>
+                                    <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                                </div>
+        
+                                <!-- User input box -->
+                                <div class="chat-bar-input-block">
+                                    <div id="userInput">
+                                        <input id="textInput" class="input-box" type="text" name="msg"
+                                            placeholder="Tap 'Enter' to send a message">
+                                        <p></p>
+                                    </div>
+        
+                                    <div class="chat-bar-icons">
+                                        <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart" onclick="heartButton()"></i>
+                                        <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send" onclick="sendButton()"></i>
+                                    </div>
+                                </div>
+        
+                                <div id="chat-bar-bottom">
+                                    <p></p>
+                                </div>
+        
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+        
+            </div>
+                 <!-- End chat bot -->
+
+              <!-- front page started -->
+
+         <div class="cont" style="width: 100%;">
+            <br><br><br><br><br>
+             <div class="welcolor">
+            <h1 class="wel"  style=" font-size: 50px;"> Welcome To </h1><h1 style="font-size: 70px;"> Antique Vintage Furnishing</h1></div>
+         <div style="text-align: center;"> <h2  style="color: white;">Transform your beloved vintage pieces into timeless treasures with our expert repair 
+            and restoration services</h2></div>
+            <br>
+         </div>
+               <!-- search bar started -->
+         <center>
+                <form action="../html/home.html" class="search-bar">
+                <input type="text" placeholder="Shop by Search" name="q">
+           <button type="submit" style="text-decoration: aliceblue;">Search</button>
+            </form>
+         </center>
+               <!-- End search bar  -->
+            <!-- End front page -->
+       
+        <!--SHOP now image started -->
+    <div class="contain">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   
+    <section id="hero"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  <br><br><br><br><br><br><br><br><br><br>
+
+		<h2 style="font-size: 50px;">Discover Our Amazing Products</h2>
+		<p style="font-size: 25px;">We offer a wide range of products that are perfect for your needs. Browse our selection today 
+            and find your new favorite item.</p><br><br><br>
+		<a href="../html/Expertise.html" class="cta">Shop Now</a>
+	</section></div>
+        <!-- End SHOP now image -->
+
+        <!-- banner container 50% image start -->
+    <div class="color2">
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="../image/home-img-1.png" alt="" style="border-radius: 10%;">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>upto 50% off</h3>
+                <a href="../html/Expertise.html" class="btn">shop now</a>
+            </div>
+        </div>
+    
+        <div class="banner">
+            <img src="../image/blog-2.jpg" alt="" style="border-radius: 10%;">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>upto 50% off</h3>
+                <a href="../html/Expertise.html" class="btn">shop now</a>
+            </div>
+        </div>
+    
+        <div class="banner">
+            <img src="../image/home-img-2.png" alt="" style="border-radius: 10%;">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>upto 50% off</h3>
+                <a href="../html/Expertise.html" class="btn">shop now</a>
+            </div>
+        </div>
+    
+    </section><br><br><br><br><br><br></div>
+        <!-- end banner container 50% image  -->
+
+        <!-- banner container  image  -->
+<div class="box" style="background-color: #564147; height: 430PX;">
+<div class="cont">    <h2 style="color: white;">NEW ARRIVAL</h2></div>
+<section class="banner-container">
+            <div class="banner" style=" padding-left: 80px; padding-top: 30px;">
+      <a href="../html/Expertise.html"><img src="../image/color_restoration_1.jpg" alt="image" style="border-radius: 10%; width: 500Px; height: 350Px;"></a>
+                
+            </div>
+            <img src="../image/abstract-new-arrival-composition-with-flat-design_23-2147884159.jpg" alt="image" class="pop-sticker1">
+
+            <div class="banner" style=" padding-right: 50px; padding-top: 30px;">
+                <a href="../html/Expertise.html"> <img src="../image/blog-2.jpg" alt="image" style="border-radius: 10%; width: 500px;height: 350px;"></a>
+                
+                    
+            </div>
+            <img src="../image/sale-removebg-preview.png" alt="" class="pop-sticker2" style=" background: transparent;">
+</section>
+ </div>
+         <!-- End banner container  -->
+
+                  <!--box container started  -->
+ <div class="color1"><br><br>
+    <div class="left" style="padding-left: 20px"><h1>Welcome to our website!<br>
+       
+   we are offering free shipping on all orders. <br>No matter what you order, we’ll deliver it right to your door<br> free of charge.</h1><br><h1><a href="../html/Expertise.html" style="color: navy;"> Shop now and enjoy free shipping on every order!</a></h1></div>
+    <div class="right" style="padding-right: 40px;">
+<img src="../image/freeshiping.jpg" alt="freeshiping" style="border-radius: 15%; border:1px solid black;"></div><br><br> 
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                  <!-- end box container  -->
+
+                  <!-- business box container started  -->
+ <div class="box2" style="background-color: #95B1AF; height: max-content;">
+<br><br><br>
+        <div class="box2" style="background-image: url(../image/wr_1.jpg); background-repeat: no-repeat; background-size: cover; width: 1000px; border-radius: 10%;" >
+            <img src="../image/new.jpg" alt="" class="pop-sticker">
+
+            
+                <br><br><br><br><br>
+            <p style="font-style: italic; font-size: 40px; text-align: center;">
+                Now you can do business on Antique Furnishing shop at
+            </p>
+                <h1 style="font-size: 30px; text-align: center;">no cost until you sell...</h1><br>
+               <div class="cont"> <h3>NO MONTHLY FEE if adding a minimum of 15 items per month.<br>
+                    9.9% Service Fee on sales. Learn More.<br><br><br></h3>
+               </div>    
+               <div class="cont"> <a href="../html/Contact.html" class="cta">Earn with us</a>
+               </div>
+         </div>
+ </div><br>
+                   <!-- end business box container  -->
+
+                  <!-- service box container started  -->
+ <div class="color">
+ <h1 style="font-size: 50px; text-align: center;">Why shop with us</h1><br>
+
+<div class="about_container" style="padding-left: 120px;">
+<div class="about_can2">
+ <img src="../image/Sustainable1.jpg" alt="service" style="padding-left: 50px;" width="300" height="230">
+<h1>Sustainable</h1>
+ <p>Buying pre-owned means shopping sustainably and choosing a better future for the planet.<u><a href="../html/Contact.html" style="color: black; font-size: medium;">know more..</a></u></p>
+</div>
+<div class="about_can">
+<img src="../image/vector-icon-flat-illustrator-eps-260nw-231876205.jpg" alt="best quality" style="width: 250px; height: 200px; padding-bottom: 30px; padding-left: 50px;">
+<h1>Quality</h1>
+<p>Our sellers offer quality products and expertise helping you find one-of-a-kind pieces that have stood the test of time.<br><u><a href="../html/Contact.html" style="color: black; font-size: medium;">know more..</a></u></p>
+</div>
+
+    <div class="about_can1">
+        <img src="../image/customer_service.jpg" alt="support" width="250" height="220" style="padding-left: 50Px;"><br><br>
+    <h1>Customer service</h1>
+        <p> We pride ourselves on our excellent customer service, with direct access to our highly-rated CX team.<a href="../html/Contact.html" style="color: black; font-size: medium;"><u>know more..</u></a></p>
+
+    </div>
+</div>
+
+ <br><br><br>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+ </div>
+                  <!-- end service box container   -->
+
+                  <!-- footer started  -->
+ <footer>
+    <div class="container">
+        <div class="footer-1 line" data-aos="fade-right" data-aos-duration="1050">
+            <h2>About_us</h2>
+            <p>For 45 years, Vintage repair shop  has been providing expert antique furniture repair and restoration services to our valued clients.</p>
+            <ul class="social">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-2 line" data-aos="fade-right" data-aos-duration="1030">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="../html/About_us.html">About</a></li>
+                <li><a href="../html/Restoration.html">Restoration</a></li>
+                <li><a href="..//html/Expertise.html">Expertise</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="../html/Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-2 line" data-aos="fade-right" data-aos-duration="1010">
+            <h2>Terms&Condition</h2>
+            <ul>
+                <li><a href="../html/shiping.html">Shipping policy</a></li>
+                <li><a href="../html/return.html">Return policy</a></li>
+                <li><a href="../html/refund.html">Refund policy</a></li>
+                <li><a href="../html/privacy.html">Privacy policy</a></li>
+                <li><a href="../html/terms.html">Terms of Service Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-3 line" data-aos="fade-right" data-aos-duration="990">
+            <h2>Contact Info</h2>
+        <ul>    
+            <li>
+                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                <span>132, New East Lane <br>London, United Kindom</span>
+            </li>
+            <li>
+                <span><i class="fa fa-volume-control-phone" aria-hidden="true"></i></span>
+                <span><a href="#" style="font-size: medium; color: #300f30;">+1 2234 56789</a></span>
+            </li>
+            <li>
+                <span><i class="fa fa-envelope" aria-hidden="true" style="text-decoration-color: #300f30;;"></i></span>
+                <span><a href="#" style="font-size: medium; color: #300f30;">contactus@email.com</a></span>
+            </li>
+        </ul>
+        </div>
+    
+    </div>
+</footer>
+                  <!-- end footer  -->
+
+                  <!-- copyright start  -->
+<div class="copyright">
+    <p>Copyright &copy; 2023.Dhruvit Patel  All Right Reserved.</p>
+</div>
+                  <!-- end copyright  -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+<script src="../js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="../js/chat.js"></script>
+<script src="../js/responses.js"></script>
+        </div>
+     <!-- full page started -->
+
+    </body>
+    </html>
+ 
