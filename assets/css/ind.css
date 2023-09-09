@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container2{
+    width: 100%;
+    height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(187,187,245);
+    background-image: url(../image/sign\ back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #171717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.26);
+    perspective: 1000px;
+    opacity: 0.7;
+    opacity: color rgb(23, 22, 22);
+}
+.inner-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+.card-front, .card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,100,0.8),rgba(0,0,100,0.8));
+    background-image: url(../image/log\ sing.jpg);
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+.card-back{
+    transform: rotateY(180deg);
+}
+.card h2{
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input-box{
+    width: 100%;
+    border: 1px solid #121111;
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #100e0e;
+}
+::placeholder{
+    color: #101010;
+    font-size: 12px;
+}
+button{
+    width: 100%;
+    border: 1px solid #0e0e0e;
+    margin: 35px 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: #100f0f;
+    cursor: pointer;
+}
+.submit-btn{
+    position: relative;
+}
+.submit-btn::after{
+    content: '\27a4';
+    color: #b8b4b4;
+    line-height: 32px;
+    font-size: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: #070707;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+span{
+    font-size: 13px;
+    margin-left: 5px;
+}
+.card .btn{
+    margin-top: 70px;
+}
+.card a{
+    color: #2e4065;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 8px;
+}
