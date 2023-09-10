@@ -24,6 +24,6 @@ Feel free to delve into the source code to see how I built this project and impr
 🙌 Contributions:
 I welcome contributions, feedback, and suggestions to make this project even better. If you'd like to contribute, please fork this repository and submit a pull request.
 📧 Contact:
-If you have any questions or want to get in touch, you can reach me at @PatelBrand.
+If you have any questions or want to get in touch, you can reach me at dhruvituk46@gmail.com.
 
 Thank you for visiting my Antique Furniture Restoration project! I hope you enjoy exploring the world of antique furniture and the art of restoration.
