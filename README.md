@@ -18,7 +18,7 @@ Welcome to my Antique Furniture Restoration project! This repository showcases m
 🌐 Visit the repository:
 https://github.com/PatelBrand/Antique_furniture.git
 
-![image](https://github.com/PatelBrand/Antique_furniture/assets/126172506/af449977-9f7a-4518-96b4-635a82cd2ecc)Website look like this: 
+Website look like this: 
 ![image](https://github.com/PatelBrand/Antique_furniture/assets/126172506/fb839e05-b933-4771-8c41-17233c6b4f5d)
 ![image](https://github.com/PatelBrand/Antique_furniture/assets/126172506/a0f34ca1-c79f-4f68-af40-e19bc8d49b56)
 ![image](https://github.com/PatelBrand/Antique_furniture/assets/126172506/2f2925c4-d1dd-408c-8859-baa96b1021c6)
