@@ -1,5 +1,7 @@
 # Antique_furniture
 Antique Furniture Restoration: My college web development project. Explore vintage pieces, restoration techniques, and join our partners and sale best antique furniture . Powered by HTML, CSS, JavaScript.
+
+
 🪑 Antique Furniture Restoration Project 🪑
 
 Welcome to my Antique Furniture Restoration project! This repository showcases my web development skills while exploring the world of antique furniture restoration. As part of my college project, I've created a website dedicated to this timeless craft.
@@ -14,8 +16,7 @@ Welcome to my Antique Furniture Restoration project! This repository showcases m
 - HTML, CSS, and JavaScript for front-end development.
 
 🌐 Visit the repository:
-
-
+https://github.com/PatelBrand/Antique_furniture.git
 
 📚 Explore the Code:
 Feel free to delve into the source code to see how I built this project and improve your web development skills.
